@@ -14,22 +14,22 @@ cask "clockify-tui" do
   on_macos do
     on_intel do
       url "https://github.com/kevmul/clockify-tui/releases/download/v#{version}/clockify-tui_Darwin_x86_64.tar.gz"
-      sha256 "d5d3aef1f7d456aeb9f2586601500201ca3dd6b137007d7fdb458d23bdd383a7"
+      sha256 "93df510a8e27c08a2a03b87c174c2abfa78eeab60d3d516c1aaa617753692bab"
     end
     on_arm do
       url "https://github.com/kevmul/clockify-tui/releases/download/v#{version}/clockify-tui_Darwin_arm64.tar.gz"
-      sha256 "9e23f24ef4e6c984a7a5a03cf3936150c4d9efacb75189fdbba7ef210b14b673"
+      sha256 "a996a942d01a9d361a89bb5fa8e6cd888812497f4d3639c91131bd3d7211ecaa"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/kevmul/clockify-tui/releases/download/v#{version}/clockify-tui_Linux_x86_64.tar.gz"
-      sha256 "afe73e766e4b12474cbc641f38830d62669bb7dc75935409f9286c3214c0f9b6"
+      sha256 "e5a8b6adbbf7bb3c8d065090d7528f8097cd3c4bd6b40bc825344b52765af106"
     end
     on_arm do
       url "https://github.com/kevmul/clockify-tui/releases/download/v#{version}/clockify-tui_Linux_arm64.tar.gz"
-      sha256 "2a0c742dd544b038fed598c4d81c1e19dcc4ff3057157d73880f44a4bd4298fb"
+      sha256 "0913b0b2b2f2dd5fd177bcf506d4e26664530af9ff121b47671b0e8e093d80c7"
     end
   end
 
