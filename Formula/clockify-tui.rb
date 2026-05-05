@@ -5,21 +5,21 @@
 class ClockifyTui < Formula
   desc "A terminal user interface for Clockify"
   homepage "https://github.com/kevmul/clockify-tui"
-  version "0.0.17"
+  version "0.0.18"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/kevmul/clockify-tui/releases/download/v0.0.17/clockify-tui_Darwin_x86_64.tar.gz"
-      sha256 "a60b21c6eb920c0896306ea2fccbf17d5d5b31cab257e46620283fd7cc7ad5b9"
+      url "https://github.com/kevmul/clockify-tui/releases/download/v0.0.18/clockify-tui_Darwin_x86_64.tar.gz"
+      sha256 "a4d3a123dd8d10655995cd08c801497b4125865402212e2ca0d1440670fe74de"
 
       define_method(:install) do
         bin.install "clockify-tui"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/kevmul/clockify-tui/releases/download/v0.0.17/clockify-tui_Darwin_arm64.tar.gz"
-      sha256 "b1a9903c729ace829c7d3fe14f7e68062941483f6a979567b4e4f6b7020412bd"
+      url "https://github.com/kevmul/clockify-tui/releases/download/v0.0.18/clockify-tui_Darwin_arm64.tar.gz"
+      sha256 "e093d913388ccbd6ac3337e42a468131d58ed07e93cee114d65c5ccf6218ecc7"
 
       define_method(:install) do
         bin.install "clockify-tui"
@@ -29,15 +29,15 @@ class ClockifyTui < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/kevmul/clockify-tui/releases/download/v0.0.17/clockify-tui_Linux_x86_64.tar.gz"
-      sha256 "ef84e76fbe7dbd4957ced47b6dd23ffc0a94ea3ea53aa98637c94f00b9c22153"
+      url "https://github.com/kevmul/clockify-tui/releases/download/v0.0.18/clockify-tui_Linux_x86_64.tar.gz"
+      sha256 "994cecb16584f2deeabdf746560fc7cac0770063acf615cc7ec40158899140da"
       define_method(:install) do
         bin.install "clockify-tui"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/kevmul/clockify-tui/releases/download/v0.0.17/clockify-tui_Linux_arm64.tar.gz"
-      sha256 "f60fa1720e15428b5a9de447a7f28c264a3babb6266d4b549975df9533c14709"
+      url "https://github.com/kevmul/clockify-tui/releases/download/v0.0.18/clockify-tui_Linux_arm64.tar.gz"
+      sha256 "456b2230bf170b5b0d41bb023ab82ff001ca436becb8fcdfaa1fd98ea16dffe8"
       define_method(:install) do
         bin.install "clockify-tui"
       end
